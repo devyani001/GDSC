@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 14, 32);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+li{
+    margin-left: 40px;
+}
+
+li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.navbar{
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-box{
+    border: 1px solid none;
+
+}
+
+.right-box{
+    border: 1px solid none;
+}
