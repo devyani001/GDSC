@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color: rgb(16, 14, 32);
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 h1{
@@ -42,4 +42,48 @@ li:hover{
 
 .right-box{
     border: 1px solid none;
+}
+
+
+/* head section */
+
+.container{
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 500px; */
+    height: 50vh;
+    padding: 150px 0;
+}
+
+.box{
+    border: 1px solid none;
+    height: 45vh;
+}
+
+#left{
+    width: 40%;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 2px; */
+}
+
+#right{
+    width: 30%;
+}
+
+.heading{
+    margin:  40px 0 0 0;
+    font-size: 45px;
+}
+
+.surname{
+    font-size: 45px;
+    margin:  20px 0 0 0;
+}
+
+.webdev{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellow;
 }
